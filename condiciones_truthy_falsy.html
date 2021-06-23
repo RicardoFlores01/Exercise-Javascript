@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Condiciones truthy y falsy</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*let age = parseInt(prompt("Dime tu edad"));
+
+		if (age) 
+		{
+			if (age >= 18 && age < 90) 
+			{
+				alert("Eres mayor de edad")
+			}
+			else if (age > 90) 
+			{
+				age = parseInt(prompt("Tu edad no es valida"))
+			}		
+			else
+			{
+				alert("Te faltan años")
+			}
+		}
+		else
+		{
+			age = parseInt("Ingresa bien la edad")
+		}*/
+
+		/*
+		let answer = prompt("Escoge un numero del 1 al 3")
+
+		switch(answer)
+		{
+			case '1':
+				alert("Eres timido")
+				break;
+
+			case '2':
+				alert("Eres extrovertido")
+				break;
+
+			case '3':
+				alert("Eres muy feliz")
+				break;
+
+			default:
+				alert("Por favor escribe un numero del 1 al 3")
+				break;	
+		}
+		*/
+
+		let answer = prompt(`La capital de Colombia es:
+			a. Bogota
+			b. Lima
+			c. Madrid
+			d. Mexico
+			e. La Paz
+			`).toUpperCase().trim()
+		switch(answer){
+			case 'A':
+				alert("Correcto")
+				break;
+			case 'B':
+				alert("Te equivocaste")
+				break;
+			default:
+				alert("No has escrito una opcion valida")
+				break;
+		}
+	</script>
+</body>
+</html>
